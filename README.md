@@ -10,6 +10,10 @@ Use npm to install dependencies.
 npm install
 ```
 
+## Usage
+
+Navigate to localhost:3000
+
 ## Authors
 
 Tejas Srivastava
