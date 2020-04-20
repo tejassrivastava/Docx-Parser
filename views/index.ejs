@@ -1,0 +1,20 @@
+<div>
+<h1>Onestore India</h1>
+<% for(let i = 0; i < data.length; i++) { %>
+
+    <ul><strong><%= data[i].title %></strong></ul>
+    
+    <% for(let j = 0; j < data[i].content.length; j++) { %>
+
+    <li><%= data[i].content[j] %></li>
+    
+
+    <% } %>
+
+    <% } %>
+
+    </br>
+    
+    <button type="button" class="btn btn-danger" onclick="window.location.href = '/save'">Submit    </button>
+</div>
+
